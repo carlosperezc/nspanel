@@ -1,4 +1,5 @@
-# nspanel
+# SonOff nspanel custom implementation using Nextion, Tasmota and MQTT
+
 Custom nextion projet for using with sonoff nspanel and tasmota.
 The berry script only updates the time. All other information is pushed via via MQTT messages to the .../cmnd/Nextion topic in the form of: pagename.object.txt="value"
 
